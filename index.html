@@ -54,11 +54,53 @@
 					</nav>	<!-- navbar -->
 				</section>	<!-- #navigation -->
 				<section id="starting">
+
 					<div class="text-center starting-text">
 						<h1 class="rene">Anne Tiberghien</h1>
-						<h2>Psychologue<br>-<br>Neuropsychologue</h2>
-            <p><a class="btn btn-success btn-lg" href="#" role="button">Prendre RdV</a></p>
+						  <h2>Psychologue<br>-<br>Neuropsychologue</h2>
+            <p> <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#prisedeRdv">Prendre un RDV</button></p>
 					</div>
+
+
+
+        <!-- Modal -->
+        <div id="prisedeRdv" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+              <div id="wufoo-zetft4f1ocits0">
+                Fill out my <a href="https://diditlagarde.wufoo.com/forms/zetft4f1ocits0">online form</a>.
+                </div>
+                <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">HTML Forms powered by <a href="http://www.wufoo.com">Wufoo</a>.</div>
+                <script type="text/javascript">var zetft4f1ocits0;(function(d, t) {
+                var s = d.createElement(t), options = {
+                'userName':'diditlagarde',
+                'formHash':'zetft4f1ocits0',
+                'autoResize':true,
+                'height':'916',
+                'async':true,
+                'host':'wufoo.com',
+                'header':'show',
+                'ssl':true};
+                s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+                s.onload = s.onreadystatechange = function() {
+                var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+                try { zetft4f1ocits0 = new WufooForm();zetft4f1ocits0.initialize(options);zetft4f1ocits0.display(); } catch (e) {}};
+                var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+                })(document, 'script');</script>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+
+
 				</section>
 				<div id="bottom" class="bottom text-center">
 			        <a href="#about"><i class="ion-ios7-arrow-down"></i></a>
@@ -237,7 +279,7 @@
 			</div>	<!-- container -->
 	    </section>	<!-- team -->
 
-		<!-- Price-Table -->
+		<!-- Tarifs-->
 	    <section id="price_table">
 	    	<div class="container">
 	    		<div class="row text-center" id="heading">
@@ -283,9 +325,9 @@
 		            </ul>
 	    		</div>	<!-- row main_content -->
 	    	</div>	<!-- container -->
-	    </section>	<!-- price_table -->
+	    </section>	<!-- Tarifs -->
 
-		<!-- Blog -->
+		<!-- ACTUS -->
 	    <section id="blog">
 	    	<div class="container">
 	    		<div class="row text-center" id="heading">
@@ -298,15 +340,11 @@
 		        		</div>
 		        	</div>
 	    		</div>
+
 		    	<div class= "row post">
 		    		<div class= "main_content">
 		    			<div class= "post-thumbnail col-md-5">
 		    				<div class= "frame">
-		    					<div class="post-format">
-		    						<span class="icon-picture">
-		    							<i class= "fa fa-laptop"></i>
-		    						</span>
-		    					</div>
 		    					<a href="#"><img class= "img-responsive" src="http://lorempixel.com/400/200" alt=""/></a>
 		    				</div>
 		    			</div>
@@ -343,101 +381,95 @@
 		    					</ul>
 		    				</div>
 		    			</div>
-		    		</div>
+		    		</div><!--Actus à inserer-->
 		    	</div>
-		    	<div class="row post">
-		    		<div class="main_content">
-		    			<div class="post-thumbnail col-md-5">
-		    				<div class="frame">
-		    				</div>
-		    				<img class="hidden-xs post-shadow" src="http://lorempixel.com/400/200" alt=""/>
-		    			</div>
-		    			<div class="post-excerpt col-md-7">
-		    				<h2 class="title">
-		    					<a href="#">Make up forever - tres vichy</a>
-		    				</h2>
-		    				<div class="line-dotted">
-		    				</div>
-		    				<p>
-		    					Diur apelligh to luriem rorde ist thuir quire contears foresa irmde narelair muiers lirguen luirem joires porfelas wateir ogespear pesae. Irmde gues narelair muiers lirguen luirem joires porf wateir ogeepear pesae. Diur tol apelligh to luriem rorde ist thuir quire contears foresa irmde narelair muiers lirguen luirem joires porfelas quie wateir ogespear pesae. Irmde gues narelair muiers lirguen luirem joires porf wateir ogeepear pesae.
-		    					<a href="#">...Read more</a>
-		    				</p>
-		    				<div class="line-dotted"></div>
-		    				<p class="meta"><strong>Date: </strong>14/February/2013 <strong>By: </strong>Zyanya Peredo <strong>In: </strong><a href="#">Photography</a>, <a href="#">Print</a>, <a href="#">Design</a>
-		    				</p>
-		    				<div class="line-dotted"></div>
-		    				<div class= "post-share">
-		    					<p>Share this post:</p>
-		    					<ul>
-		    						<li>
-		    							<a href="#" data-toggle="tooltip" title="Contact with Facebook" class= "team-facebook">
-					        				<i class="fa fa-facebook"></i>
-					        			</a>
-		    						</li>
-		    						<li>
-		    							<a href="#" data-toggle="tooltip" title="Contact with Twitter" class= "team-twitter">
-					        				<i class="fa fa-twitter"></i>
-					        			</a>
-		    						</li>
-		    						<li>
-		    							<a href="#" data-toggle="tooltip" title="Contact with Google-plus" class= "team-google-plus">
-					        				<i class="fa fa-google-plus"></i>
-					        			</a>
-		    						</li>
-		    					</ul>
-		    				</div>
-		    			</div>
-		    		</div>
-		    	</div>
-		    	<div class="row post">
-		    		<div class="main_content">
-		    			<div class="post-thumbnail col-md-5">
-		    				<div class="frame">
-		    					<div class="post-format quote">
-		    						<span class="icon-camera-retro">
-		    							<i class= "fa fa-star"></i>
-		    						</span>
-		    					</div>
-		    					<a href="#"><img class= "img-responsive" src="img/blog3.png" alt=""/></a>
-		    				</div>
-		    				<img class="hidden-xs post-shadow" src="http://lorempixel.com/400/200" alt=""/>
-		    			</div>
-		    			<div class="post-excerpt col-md-7">
-		    				<h2 class="title">
-		    					<a href="#">Make up forever - Make your web page beautiful.</a>
-		    				</h2>
-		    				<div class="line-dotted"></div>
-		    				<p>
-		    					Diur apelligh to luriem rorde ist thuir quire contears foresa irmde narelair muiers lirguen luirem joires porfelas wateir ogespear pesae. Irmde gues narelair muiers lirguen luirem joires porf wateir ogeepear pesae.
-		    					<a href="#">...Read more</a>
-		    				</p>
-		    				<div class="line-dotted"></div>
-		    				<p class="meta"><strong>Date: </strong>14/February/2013 <strong>By: </strong>Zyanya Peredo<strong>In: </strong><a href="#">Photography</a>, <a href="#">Print</a>, <a href="#">Design</a>
-		    				</p>
-		    				<div class="line-dotted"></div>
-		    				<div class= "post-share">
-		    					<p>Share this post:</p>
-		    					<ul>
-		    						<li>
-		    							<a href="#" data-toggle="tooltip" title="Contact with Facebook" class= "team-facebook">
-					        				<i class="fa fa-facebook"></i>
-					        			</a>
-		    						</li>
-		    						<li>
-		    							<a href="#" data-toggle="tooltip" title="Contact with Twitter" class= "team-twitter">
-					        				<i class="fa fa-twitter"></i>
-					        			</a>
-		    						</li>
-		    						<li>
-		    							<a href="#" data-toggle="tooltip" title="Contact with Google-plus" class= "team-google-plus">
-					        				<i class="fa fa-google-plus"></i>
-					        			</a>
-		    						</li>
-		    					</ul>
-		    				</div>
-		    			</div>
-		    		</div>
-		    	</div>
+
+          <div class= "row post">
+            <div class= "main_content">
+              <div class= "post-thumbnail col-md-5">
+                <div class= "frame">
+                  <a href="#"><img class= "img-responsive" src="http://lorempixel.com/400/200" alt=""/></a>
+                </div>
+              </div>
+              <div class= "post-excerpt col-md-7">
+                <h2 class="title"><a href="#">FLAT &amp; MODERN TREND DESIGN</a></h2>
+                <div class="line-dotted"></div>
+                <p>
+                  Diur apelligh to luriem rorde ist thuir quire contears foresa irmde narelair muiers lirguen luirem joires porfelas wateir ogespear pesae. Irmde gues narelair muiers lirguen luirem joires porf wateir ogeepear pesae. Diur tol apelligh to luriem rorde ist thuir quire contears foresa irmde narelair muiers lirguen luirem joires porfelas quie wateir ogespear pesae. Irmde gues narelair muiers lirguen luirem joires porf wateir ogeepear pesae.
+                  <a href="#">...Read more</a>
+                </p>
+                <div class="line-dotted"></div>
+                <p class="meta">
+                  <strong>Date:</strong> 14/February/2013 <strong>By:</strong> Zyanya Peredo <strong>In: </strong><a href="#">Photography</a>, <a href="#">Print</a>, <a href="#">Design</a>
+                </p>
+                <div class="line-dotted"></div>
+                <div class= "post-share">
+                  <p>Share this post:</p>
+                  <ul>
+                    <li>
+                      <a href="#" data-toggle="tooltip" title="Contact with Facebook" class= "team-facebook">
+                          <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                      <a href="#" data-toggle="tooltip" title="Contact with Twitter" class= "team-twitter">
+                          <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                      <a href="#" data-toggle="tooltip" title="Contact with Google-plus" class= "team-google-plus">
+                          <i class="fa fa-google-plus"></i>
+                        </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div><!--Actus à inserer-->
+          </div>
+
+          <div class= "row post">
+            <div class= "main_content">
+              <div class= "post-thumbnail col-md-5">
+                <div class= "frame">
+                  <a href="#"><img class= "img-responsive" src="http://lorempixel.com/400/200" alt=""/></a>
+                </div>
+              </div>
+              <div class= "post-excerpt col-md-7">
+                <h2 class="title"><a href="#">FLAT &amp; MODERN TREND DESIGN</a></h2>
+                <div class="line-dotted"></div>
+                <p>
+                  Diur apelligh to luriem rorde ist thuir quire contears foresa irmde narelair muiers lirguen luirem joires porfelas wateir ogespear pesae. Irmde gues narelair muiers lirguen luirem joires porf wateir ogeepear pesae. Diur tol apelligh to luriem rorde ist thuir quire contears foresa irmde narelair muiers lirguen luirem joires porfelas quie wateir ogespear pesae. Irmde gues narelair muiers lirguen luirem joires porf wateir ogeepear pesae.
+                  <a href="#">...Read more</a>
+                </p>
+                <div class="line-dotted"></div>
+                <p class="meta">
+                  <strong>Date:</strong> 14/February/2013 <strong>By:</strong> Zyanya Peredo <strong>In: </strong><a href="#">Photography</a>, <a href="#">Print</a>, <a href="#">Design</a>
+                </p>
+                <div class="line-dotted"></div>
+                <div class= "post-share">
+                  <p>Share this post:</p>
+                  <ul>
+                    <li>
+                      <a href="#" data-toggle="tooltip" title="Contact with Facebook" class= "team-facebook">
+                          <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                      <a href="#" data-toggle="tooltip" title="Contact with Twitter" class= "team-twitter">
+                          <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                      <a href="#" data-toggle="tooltip" title="Contact with Google-plus" class= "team-google-plus">
+                          <i class="fa fa-google-plus"></i>
+                        </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div><!--Actus à inserer-->
+          </div>
+
 	    		<div class= "row">
 	    			<div class= "col-md-6 col-md-offset-3 text-center">
 	    				<ul class="pagination">
@@ -452,9 +484,9 @@
 	    			</div>
 	    		</div>
     		</div>	<!-- container -->
-	    </section>	<!-- blog -->
+	    </section>	<!-- ACTUS -->
 
-		<!-- Clients -->
+		<!-- Temoignages Clients -->
 	    <section id= "testimonial">
 	    	<div class= "container">
 	    		<div class= "row text-center" id= "heading">
