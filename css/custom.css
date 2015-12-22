@@ -24,6 +24,7 @@ a:hover {
 .btn {
     border-radius: 30px;
     transition: background 0.5s cubic-bezier(.17,.67,.83,.67);
+    box-shadow: 2px 2px 5px rgb(20, 20, 20);
 }
 
 .navbar-white {
@@ -704,6 +705,7 @@ a
     transition: all .3s ease-in-out;
     opacity: 0.8;
     border-radius: 50px;
+    box-shadow: 2px 2px 5px rgb(20, 20, 20);
 }
 .socials-icons li a i.fa
 {
