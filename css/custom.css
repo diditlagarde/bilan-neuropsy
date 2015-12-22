@@ -305,17 +305,15 @@ hr
 {
     color: rgb(114, 184, 211);
 }
-.fa-gamepad
-{
-    color: rgba(0, 0, 128, 0.58);
-}
+
+
 .fa-cog
 {
     color: grey;
 }
-.fa-stack-overflow
+.fa-cubes
 {
-    color: #C09553;
+    color: #c00;
 }
 .service:hover .service-icon i
 {
